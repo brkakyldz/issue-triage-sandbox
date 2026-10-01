@@ -9,5 +9,8 @@ open-source project's inbox: bug reports, feature requests, questions, documenta
 fixes, three duplicated reports, and one issue that tries to give the triage bot
 instructions.
 
-Every label and comment on these issues was proposed by the agent and applied only
-after a human approved it.
+Every label and comment on these issues was proposed by the agent and went through its
+review step before it was applied. Issues #1–#14 were triaged by the agent's acceptance
+run, whose scripted reviewer approves, edits and rejects on purpose (so #13's labels
+were edited, and #12's duplicate comment was rejected); #15–#20 arrived later and were
+triaged, together with #10, in the run recorded in the agent's README.
